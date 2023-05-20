@@ -70,7 +70,6 @@ public class ThreadClient {
                 countThread.join();
                 repeatedWordsThread.join();
                 ReapetationThread.join();
-
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
